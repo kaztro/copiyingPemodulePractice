@@ -75,7 +75,7 @@ body {
     background:-webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
 }
 
-/*Todo lo relacionado con las secciones*/
+/*Todo lo relacionado con las 2 secciones*/
 .pSeccion {
     display: flex;
     background: #ffffff;
@@ -84,6 +84,10 @@ body {
 .reasons {
     display: block;
     margin: 10em;
+}
+
+.reasons.blanco {
+    color: #ffffff;
 }
 
 .imagenHD {
@@ -113,3 +117,5 @@ body {
     background-size: cover;
     flex-direction: row-reverse;
 }
+
+/*Mini galeria Grid*/
