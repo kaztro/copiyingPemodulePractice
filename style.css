@@ -4,30 +4,56 @@
 }
 
 body { 
-    margin: 7em;
+    margin: 6em 12em;
     background: #4b379a;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+/*Todo lo relacionado con el encabezado*/
+.eCompleto {
+    display: flex;
+    flex-direction: column;
+    background-image: url(public/img/headerbg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opacidad {
+    background:-webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    opacity: 0.9;
 }
 
 .Encabezado {
     display: flex;
-    background-image: url(/public/img/header-bg.jpg);
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    margin: 9.8em;
+    color: #ffffff;
+}
+
+.Logo {
+    display: flex;
+}
+
+#log {
+    margin-top: 1.2rem;
+    margin-left: 13em;
 }
 
 .titulo {
     font-size: 5.5em;
 }
 
-/*
-.titulo, .subtitulo {
-    text-align: center;
-}
-*/
-
+/*Todo lo relacionado con los botones*/
 #botonRedondo {
     border-radius: 2em;
-    cursor: pinter;
+    cursor: pointer;
 }
 
 .transparentB {
@@ -38,10 +64,6 @@ body {
     font-size: 0.9rem;
     color: #ffffff;
 }
-/*
-header .transparentB {
-    
-}*/
 
 .SolidB {
     background: #bc5ede;
@@ -50,10 +72,12 @@ header .transparentB {
     height: 3.5em;
     font-size: 0.9rem;
     color: #ffffff;
+    background:-webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
 }
-/*
-.eCompleto {
-    background: url(/public/img/headerbg.jpg);
-    height: 25em;
-    background-repeat: no-repeat;
-}*/
+
+/*Todo lo relacionado con las secciones*/
+.pSeccion {
+    display: flex;
+    background: #ffffff;
+}
+
