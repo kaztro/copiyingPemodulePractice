@@ -1,3 +1,13 @@
+:root {
+    box-sizing: border-box;
+}
+
+::brefore, ::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -128,4 +138,11 @@ body {
 
 .g1, .g2, .g3, .g4 {
     margin: 5%;
+}
+
+@media screen and (max-width: 300px) {
+    .main {
+        flex-direction: column;
+        
+    }
 }
